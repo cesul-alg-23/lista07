@@ -13,6 +13,11 @@ for i in range(1, 11):
     else:
         print('Errooooouuuu! Tenta de novo, mané!')
 
+        if palpite < sorteio:
+            print('Chutou muito baixo!')
+        else:
+            print('Chutou muito alto!')
+
 
 if not acertou:
     print(f'O número sorteado foi {sorteio}')
